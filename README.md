@@ -5,3 +5,4 @@ Library yang digunakan :
 - OpenGL
 - Thrust CUDA
 - GLFW
+- CUDA
