@@ -1,0 +1,112 @@
+﻿Build started 4/3/2017 2:05:05 PM.
+     1>Project "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SPHCudaThesisMasterII.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\Scene.cu" 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SimulatorSPH.cpp" 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SPHCompute.cu" 
+       CudaBuild:
+         Compiling CUDA source file Scene.cu...
+         cmd.exe /C "C:\Users\Hafid\AppData\Local\Temp\tmp7068ec81ff4c4258b4dc9a9db6221cec.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\Scene.cu.obj "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\Scene.cu"
+         
+         E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\Scene.cu.obj "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\Scene.cu" 
+         Scene.cu
+     1>E:/Dropbox/My Thesis/Do Your Code/SPHCudaThesisMasterIV/SPHCudaThesisMasterII/Scene.cu(39): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>E:/Dropbox/My Thesis/Do Your Code/SPHCudaThesisMasterIV/SPHCudaThesisMasterII/Scene.cu(40): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>E:/Dropbox/My Thesis/Do Your Code/SPHCudaThesisMasterIV/SPHCudaThesisMasterII/Scene.cu(41): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       CudaBuild:
+         Compiling CUDA source file SimulatorSPH.cpp...
+         cmd.exe /C "C:\Users\Hafid\AppData\Local\Temp\tmpd1a08e47f4a741b391d4f1874ce80915.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\SimulatorSPH.cpp.obj "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SimulatorSPH.cpp"
+         
+         E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\SimulatorSPH.cpp.obj "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SimulatorSPH.cpp" 
+         SimulatorSPH.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 E:\Dropbox\My Thesis\Do Your Code\Lib\glfw-3.2.bin.WIN32\include\GLFW\glfw3.h(98) : see previous definition of 'APIENTRY'
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include\thrust/system/detail/error_category.inl(102): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include\thrust/system/cuda/detail/bulk/detail/pointer_traits.hpp(55): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+       CudaBuild:
+         Compiling CUDA source file SPHCompute.cu...
+         cmd.exe /C "C:\Users\Hafid\AppData\Local\Temp\tmp2d7aab2685a8458e8c26a96022e7b7ef.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\SPHCompute.cu.obj "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SPHCompute.cu"
+         
+         E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\SPHCompute.cu.obj "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SPHCompute.cu" 
+         SPHCompute.cu
+     1>E:/Dropbox/My Thesis/Do Your Code/SPHCudaThesisMasterIV/SPHCudaThesisMasterII/SPHCompute.cu(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E:/Dropbox/My Thesis/Do Your Code/SPHCudaThesisMasterIV/SPHCudaThesisMasterII/SPHCompute.cu(27): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E:/Dropbox/My Thesis/Do Your Code/SPHCudaThesisMasterIV/SPHCudaThesisMasterII/SPHCompute.cu(28): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SphClass.cu
+         SphClass.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\thrust\system\detail\error_category.inl(102): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\thrust\system\cuda\detail\bulk\detail\pointer_traits.hpp(55): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+       CudaLink:
+         cmd.exe /C "C:\Users\Hafid\AppData\Local\Temp\tmp877de2909f414b9d9d77dba4ac84b554.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -dlink -o Debug\SPHCudaThesisMasterII.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"E:\Dropbox\My Thesis\Do Your Code\Lib\glew-2.0.0\lib\Release\Win32" -L"E:\Dropbox\My Thesis\Do Your Code\Lib\glfw-3.2.bin.WIN32\lib-vc2013" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudadevrt.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib opengl32.lib glfw3.lib glew32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 32 Debug\CustomMath.cu.obj Debug\Float3.cu.obj Debug\Int3.cu.obj Debug\KernelOption.cu.obj Debug\Scene.cu.obj Debug\Shader.cu.obj Debug\SimulatorMain.cu.obj Debug\SimulatorSPH.cpp.obj Debug\SPHCompute.cu.obj Debug\SPHParam.cu.obj Debug\SsfrParam.cu.obj Debug\Wall.cu.obj
+         
+         E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -dlink -o Debug\SPHCudaThesisMasterII.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"E:\Dropbox\My Thesis\Do Your Code\Lib\glew-2.0.0\lib\Release\Win32" -L"E:\Dropbox\My Thesis\Do Your Code\Lib\glfw-3.2.bin.WIN32\lib-vc2013" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudadevrt.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib opengl32.lib glfw3.lib glew32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 32 Debug\CustomMath.cu.obj Debug\Float3.cu.obj Debug\Int3.cu.obj Debug\KernelOption.cu.obj Debug\Scene.cu.obj Debug\Shader.cu.obj Debug\SimulatorMain.cu.obj Debug\SimulatorSPH.cpp.obj Debug\SPHCompute.cu.obj Debug\SPHParam.cu.obj Debug\SsfrParam.cu.obj Debug\Wall.cu.obj 
+         cudadevrt.lib
+         cudart.lib
+         kernel32.lib
+         user32.lib
+         gdi32.lib
+         winspool.lib
+         comdlg32.lib
+         opengl32.lib
+         glfw3.lib
+         glew32.lib
+         advapi32.lib
+         shell32.lib
+         ole32.lib
+         oleaut32.lib
+         uuid.lib
+         odbc32.lib
+         odbccp32.lib
+         CustomMath.cu.obj
+         Float3.cu.obj
+         Int3.cu.obj
+         KernelOption.cu.obj
+         Scene.cu.obj
+         Shader.cu.obj
+         SimulatorMain.cu.obj
+         SimulatorSPH.cpp.obj
+         SPHCompute.cu.obj
+         SPHParam.cu.obj
+         SsfrParam.cu.obj
+         Wall.cu.obj
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\SPHCudaThesisMasterII.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Dropbox\My Thesis\Do Your Code\Lib\glew-2.0.0\lib\Release\Win32" /LIBPATH:"E:\Dropbox\My Thesis\Do Your Code\Lib\glfw-3.2.bin.WIN32\lib-vc2013" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudadevrt.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib opengl32.lib glfw3.lib glew32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\SPHCudaThesisMasterII.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\SPHCudaThesisMasterII.lib" /MACHINE:X86 Debug\CustomMath.cu.obj
+         Debug\Float3.cu.obj
+         Debug\Int3.cu.obj
+         Debug\KernelOption.cu.obj
+         Debug\Scene.cu.obj
+         Debug\Shader.cu.obj
+         Debug\SimulatorMain.cu.obj
+         Debug\SimulatorSPH.cpp.obj
+         Debug\SPHCompute.cu.obj
+         Debug\SPHParam.cu.obj
+         Debug\SsfrParam.cu.obj
+         Debug\Wall.cu.obj
+         Debug\CSVManager.obj
+         Debug\SphClass.obj
+         "Debug\SPHCudaThesisMasterII.device-link.obj"
+            Creating library E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\SPHCudaThesisMasterII.lib and object E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\SPHCudaThesisMasterII.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SPHCudaThesisMasterII.vcxproj -> E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\SPHCudaThesisMasterII.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "E:\Dropbox\My Thesis\Do Your Code\SPHCudaThesisMasterIV\SPHCudaThesisMasterII\SPHCudaThesisMasterII.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.81

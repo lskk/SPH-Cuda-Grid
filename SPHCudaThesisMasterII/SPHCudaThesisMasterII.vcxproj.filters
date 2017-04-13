@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="SimulatorMain.cu" />
+    <CudaCompile Include="Int3.cu">
+      <Filter>Core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="SPHParam.cu">
+      <Filter>Param</Filter>
+    </CudaCompile>
+    <CudaCompile Include="SsfrParam.cu">
+      <Filter>Param</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Shader.cu">
+      <Filter>Shader</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Float3.cu">
+      <Filter>Core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Wall.cu">
+      <Filter>SPHMaster</Filter>
+    </CudaCompile>
+    <CudaCompile Include="SimulatorSPH.cpp" />
+    <CudaCompile Include="Scene.cu">
+      <Filter>Scene</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CustomMath.cu">
+      <Filter>Core</Filter>
+    </CudaCompile>
+    <CudaCompile Include="KernelOption.cu">
+      <Filter>SPHMaster</Filter>
+    </CudaCompile>
+    <CudaCompile Include="SPHCompute.cu">
+      <Filter>SPHMaster</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8687747f-4bb4-45ff-858f-c0bd86ff2169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{3e1705b9-b47a-44c2-8c3d-77f579a69174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Param">
+      <UniqueIdentifier>{1917b49d-2032-49f2-abcc-5f2d3bdad213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{0bce023e-8e12-45e7-9ad4-2dc12a9473c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{9910780f-4e72-4ca1-82a9-0f0d03eef4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPHMaster">
+      <UniqueIdentifier>{078f19c8-fd9f-4d92-85f6-7cc3442641b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Int3.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="float3.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardConstant.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SPHParam.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SsfrParam.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelOption.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SPHCompute.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMath.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SphClass.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pointSplattingFS.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="pointSplattingVS.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SphClass.cu" />
+    <ClCompile Include="CSVManager.cpp" />
+  </ItemGroup>
+</Project>
